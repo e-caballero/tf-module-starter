@@ -1,0 +1,29 @@
+<head>
+    <style>
+        body{
+            background-color: black;
+        }
+    </style>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<div class="flex flex-col justify-center min-h-screen py-6 overflow-hidden bg-black">
+  <div class="flex justify-center bg-black"> 
+    <img src="https://tech.feedforce.jp/images/2015/07/terraform-logo.png" alt="" class="max-w-none" width="500"/>
+  </div> 
+  <div class="flex justify-center text-center text-white">
+  <h1 class="text-2xl text-transparent transition duration-500 transform bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500 translate-z-10 hover:scale-125">Module Template Starter</h1>
+</div>
+  <div class="relative px-6 pt-10 pb-8 bg-black shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+    <div class="max-w-md mx-auto">
+      <div class="divide-y divide-gray-300/50">
+        <div class="py-8 space-y-6 text-base leading-7 text-gray-600">
+          <form action="/download" method="POST" class="p-6 m-4 bg-black rounded shadow" style="margin: 0 auto;">
+            <label>Enter terraform resource markdown link </label>
+            <input type="text" name="url" bg-black rounded shadow>
+            <input type="submit" value="Submit" class="px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
