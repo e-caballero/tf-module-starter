@@ -1,5 +1,4 @@
 ---
-page_type: sample
 languages: 
 - python
 products: 
@@ -164,8 +163,3 @@ When done in Azure, please try the following URL in your browser -
 http://<FunctionAppName>.azurewebsites.net/hello/Foo
 ```
 
-## Conclusion and Next Steps
-
-[This sample](https://github.com/Azure-Samples/flask-app-on-azure-functions/) helps you setup an app with the Flask framework and can help you get started using web frameworks in Azure Functions.
-
-To learn more about altering Python functions to leverage WSGI and ASGI-compatible frameworks, see [Web frameworks](https://docs.microsoft.com/azure/azure-functions/functions-reference-python?tabs=asgi%2Cazurecli-linux%2Capplication-level#web-frameworks).
