@@ -5,12 +5,45 @@ languages:
 products: 
 - azure
 - azure-functions
-description: "This is a sample Azure Function app created with the Flask framework."
+description: "Terraform Module Starter Azure Function app created with the Flask framework."
 title: Using Flask Framework with Azure Functions
-author: vrdmr, shreyabatra4
-urlFragment: azure-functions-python-create-flask-app
+author: e-caballero.eth
 ---
+# TF-Module-Starter
 
+![Terraform](https://img.shields.io/badge/Terraform-Module-blue.svg) ![Version](https://img.shields.io/badge/version-v1.0.0-green.svg)
+
+**TF-Module-Starter** is a tool designed to expedite the creation of Terraform modules by providing a standard format for module development. This application streamlines the process of developing and deploying infrastructure as code, making it easier and more efficient.
+
+## 🚀 Features
+
+- Standardized format for Terraform module creation.
+- Easy integration with existing Terraform documentation.
+- Supports Azure Terraform resources.
+
+## 📋 Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Python (compatible version with Azure Functions)
+- Azure Functions Core Tools
+- Visual Studio Code or another IDE
+
+## 🛠️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/e-caballero/tf-module-starter.git
+cd tf-module-starter
+```
+
+🔧 Usage
+To use TF-Module-Starter, follow these steps:
+
+Find the Terraform documentation for the module you want to create. For Azure resources, you can find them here.
+Get the raw link of the Terraform documentation. For example: https://raw.githubusercontent.com/hashicorp/terraform-provider-azurerm/main/website/docs/r/cdn_frontdoor_route.html.markdown.
+Enter the raw link into the application to generate your Terraform module.
 # Using Flask Framework with Azure Functions
 
 Azure Functions supports WSGI and ASGI-compatible frameworks with HTTP-triggered Python functions. This can be helpful if you are familiar with a particular framework, or if you have existing code you would like to reuse to create the Function app. The following is an example of creating an Azure Function app using Flask.
